@@ -20,7 +20,7 @@ require 'capistrano/rails'
 # require 'capistrano/rvm'
 require 'capistrano/rbenv'
 set :rbenv_type, :user
-set :rbenv_ruby, '2.0.0-p451'
+set :rbenv_ruby, '2.2.4'
 
 # require 'capistrano/chruby'
 # require 'capistrano/rails/assets'

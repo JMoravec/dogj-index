@@ -3,6 +3,7 @@ lock '3.1.0'
 
 set :application, 'dogj-index'
 set :repo_url, 'git@github.com:JMoravec/dogj-index.git'
+set :rbenv_path, '/home/deploy/.rbenv/'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
