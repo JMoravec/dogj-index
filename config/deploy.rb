@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-server '45.55.163.184', port: 80, roles: [:web, :app, :db], primary: true
+server 'jmoravec.com', port: 22, roles: [:web, :app, :db], primary: true
 
 set :application, 'dogj-index'
 set :repo_url, 'git@github.com:JMoravec/dogj-index.git'

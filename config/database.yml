@@ -25,5 +25,5 @@ production:
   encoding: unicode
   database: dogj_index
   pool: 5
-  username: blog
+  username: dogj_user
   password: <%= begin IO.read("/home/deploy/.db") rescue "" end %>
