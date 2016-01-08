@@ -1,0 +1,2 @@
+class JapaneseIndicesController < ApplicationController
+end

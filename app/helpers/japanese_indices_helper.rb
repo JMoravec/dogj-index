@@ -1,0 +1,2 @@
+module JapaneseIndicesHelper
+end

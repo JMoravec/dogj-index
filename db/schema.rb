@@ -11,6 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20160108052700) do
+
+  create_table "japanese_indices", force: :cascade do |t|
+    t.string   "romaji",     null: false
+    t.string   "book",       null: false
+    t.integer  "page",       null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "japanese_indices", ["book"], name: "index_japanese_indices_on_book"
+  add_index "japanese_indices", ["romaji"], name: "index_japanese_indices_on_romaji"
 
 end
